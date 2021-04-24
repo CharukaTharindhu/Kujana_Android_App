@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/MenuProfile"
+        android:icon="@drawable/profile"
+        android:title="Profile" />
+    <item
+        android:id="@+id/MenuNotification"
+        android:icon="@drawable/notification"
+        android:title="Notification" />
+    <item
+        android:id="@+id/MenuCollection"
+        android:icon="@drawable/collection"
+        android:title="Collection" />
+    <item
+        android:id="@+id/MenuInbox"
+        android:icon="@drawable/inbox"
+        android:title="Inbox" />
+    <item
+        android:id="@+id/MenuOrders"
+        android:icon="@drawable/orders"
+        android:title="Orders" />
+
+    <item android:title="Others">
+
+        <menu>
+            <item
+                android:id="@+id/MenuSettings"
+                android:icon="@drawable/settings"
+                android:title="Settings" />
+            <item
+                android:id="@+id/MenuSupports"
+                android:icon="@drawable/support"
+                android:title="Support Service" />
+            <item
+                android:id="@+id/MenuAboutUs"
+                android:icon="@drawable/about"
+                android:title="About Us" />
+        </menu>
+
+    </item>
+
+
+</menu>

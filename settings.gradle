@@ -1,0 +1,2 @@
+rootProject.name='Kujana_Dashboard'
+include ':app', ':jtds-1.2.7'

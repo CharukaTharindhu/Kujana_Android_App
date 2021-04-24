@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:gravity="center_horizontal"
+    tools:context=".Tracking">
+
+
+
+  <EditText
+        android:id="@+id/et_source"
+        android:layout_width="350dp"
+        android:layout_height="45dp"
+        android:hint="Enter Source Location"
+        android:background="@drawable/forget"
+        android:textColor="#0d6e6a"
+        android:textStyle="bold"
+        android:layout_marginTop="15dp"
+        android:paddingLeft="20dp">
+    </EditText>
+
+    <EditText
+        android:id="@+id/et_destination"
+        android:layout_width="350dp"
+        android:layout_height="45dp"
+        android:hint="Enter Destination Location"
+        android:background="@drawable/forget"
+        android:textColor="#0d6e6a"
+        android:textStyle="bold"
+        android:layout_marginTop="15dp"
+        android:paddingLeft="20dp">
+    </EditText>
+
+    <Button
+        android:id="@+id/btnTrack"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Display Track"
+        android:textSize="18dp"
+        android:textColor="#fff"
+        android:textStyle="bold"
+        app:cornerRadius="19dp"
+        android:background="#1520B8"
+        android:layout_marginTop="15dp">
+    </Button>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <com.google.android.material.bottomnavigation.BottomNavigationView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/bottom_nav"
+            android:background="#1520B8"
+            app:itemTextColor="@drawable/selector"
+            app:itemIconTint="@drawable/selector"
+            app:menu="@menu/menu_navigation"
+            android:layout_alignParentBottom="true"
+            tools:ignore="NotSibling">
+
+        </com.google.android.material.bottomnavigation.BottomNavigationView>
+    </RelativeLayout>
+</LinearLayout>
